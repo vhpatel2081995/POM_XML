@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "smoke">
+
+  <test name = "AppTest">
+  
+       <parameter name="userName" value="demo@techfios.com"/>
+       <parameter name="password" value="558566"/>
+       
+       <classes>
+       <class name = "test.LogInTest"/>
+       </classes>
+       
+  </test>
+  
+</suite> 

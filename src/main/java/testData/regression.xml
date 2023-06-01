@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "regression">
+
+  <test name = "regression test">
+  
+       <parameter name="userName" value="demo@techfios.com"/>
+       <parameter name="password" value="558566"/>
+       <parameter name="fullName" value="Excel Projet"/>
+       <parameter name="company" value="Techfios"/>
+       <parameter name="emailId" value="msexcell@gmail.com"/>
+       <parameter name="phone" value="231546"/>
+       <parameter name="address" value="Techfios Building"/>
+       <parameter name="city" value="Carrolton"/>
+       <parameter name="state" value="TX"/>
+       <parameter name="postal_Code" value="357290"/>
+       <parameter name="countryName" value="United Kingdom"/>
+       <parameter name="currencyName" value="USD"/>
+       <parameter name="groupName" value="Selenium"/>
+       
+       <classes>
+       <!--class name = "test.LogInTest"/-->
+       <class name = "test.AddCustomerTest"/>
+       </classes>
+       
+  </test>
+  
+</suite> 
